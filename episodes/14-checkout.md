@@ -37,7 +37,7 @@ Extensions may be granted for any reason up to 1 year from your training date.
 
 ## Be The Expert: Checkout Q \& A
 
-In small groups, read and discuss one of the three checkout procedures described on this page: [https://carpentries.github.io/instructor-training/checkout/index.html](https://carpentries.github.io/instructor-training/checkout/index.html)
+In small groups, read and discuss one of the three checkout procedures described on this page: [https://carpentries.github.io/instructor-training/checkout/index.html](checkout.md)
 Make notes in the Etherpad:
 
 - What points do you think it is most important or helpful for people to remember?
@@ -45,7 +45,6 @@ Make notes in the Etherpad:
   When you are done, report back to the full group about that stage of the process.
 
 This exercise should take about 10 minutes.
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -63,7 +62,6 @@ This demo [rubric](demos_rubric/) is provided as a guide for Trainers evaluating
 
 This exercise should take 5 minutes.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### What does a badge mean?
@@ -73,15 +71,15 @@ This exercise should take 5 minutes.
 - **You can register for Carpentries Bonus Modules!** New to The Carpentries in 2020, we are now offering short continuing education [modules][bonus-modules] for certified Instructors. The first of these targets preparing to teach online. Look out for more topics coming soon!
 - **You can share!** Looking for language to add to showcase your skills and experience on a CV or resume? [Here is some text][text-for-instructors] to get you started!
 
-[voting-rights]: https://docs.carpentries.org/topic_folders/governance/bylaws.html#eligibility-rights-and-termination-for-voting-members
-[bonus-modules]: https://carpentries.github.io/instructor-training-bonus-modules/
-[text-for-instructors]: https://github.com/carpentries/commons/blob/master/text-for-instructors.md
-
-
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - To certify, you must contribute to a lesson, take part in a discussion, and do a teaching demo within 90 days of your training event.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[voting-rights]: https://docs.carpentries.org/topic_folders/governance/bylaws.html#eligibility-rights-and-termination-for-voting-members
+[bonus-modules]: https://carpentries.github.io/instructor-training-bonus-modules/
+[text-for-instructors]: https://github.com/carpentries/commons/blob/master/text-for-instructors.md
+
 
 
