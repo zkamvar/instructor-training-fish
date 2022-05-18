@@ -1,7 +1,9 @@
 ---
-layout: break
-title: "Afternoon Break"
+title: Afternoon Break
 teaching: 0
 exercises: 0
 break: 15
 ---
+
+
+
