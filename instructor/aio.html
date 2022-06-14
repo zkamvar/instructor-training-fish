@@ -69,7 +69,9 @@
       Instructor Training
     </div>
     <div class="search-icon-sm">
+      <!-- TODO: do not show until we have search
       <i role="img" aria-label="search button" data-feather="search"></i>
+      -->
     </div>
     <div class="desktop-nav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -102,8 +104,12 @@
       </ul>
 </div>
     <form class="d-flex col-md-2 search-form">
-      <input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success tablet-search-button" type="submit"><i class="search-icon" data-feather="search" role="img" aria-label="search button"></i></button>
-    </form>
+      <fieldset disabled>
+<input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success tablet-search-button" type="submit">
+          <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i>
+        </button>
+      </fieldset>
+</form>
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
@@ -157,7 +163,7 @@
 
               <button id="chapters" class="accordion-button show" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
                 <h2 class="accordion-header chapters" id="flush-headingEleven">
-                  CHAPTERS
+                  EPISODES
                 </h2>
               </button>
               <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
@@ -1228,7 +1234,7 @@ In the first main episode of Software Carpentry’s <a href="https://swcarpentry
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>It is hard to break the habit of trying to convince learners that a task is “easy”! A few alternatives might include statements like:</p>
 <ul>
@@ -2578,7 +2584,7 @@ In the first main episode of Software Carpentry’s <a href="https://swcarpentry
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <ul>
 <li><p>CK: Not an “official” exercise, but after explaining the workshops and how to run them, go around the room, asking each person if they have a question + then answer them.</p></li>
@@ -2881,7 +2887,7 @@ In the first main episode of Software Carpentry’s <a href="https://swcarpentry
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Some advantages are:</p>
 <ul>
@@ -2923,7 +2929,7 @@ In the first main episode of Software Carpentry’s <a href="https://swcarpentry
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The instructor will lead a discussion about the videos and your feedback on them, making sure that the points of the Top Ten Tips below have been made.</p>
 </div>
@@ -3507,7 +3513,7 @@ At in-person workshops, beverages and snacks to suit a range of dietary needs ar
   Co-Instruction Suggestions
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li><p>Coordinate who is teaching what, sufficiently in advance that both instructors are confident in their preparation.</p></li>
@@ -3750,7 +3756,7 @@ At in-person workshops, beverages and snacks to suit a range of dietary needs ar
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li>Close and save files. Where can those files be found, and how can learners pick up independently where you left off?</li>
@@ -3836,7 +3842,7 @@ At in-person workshops, beverages and snacks to suit a range of dietary needs ar
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Compare your list of topics with the list below. What is missing, either in your list or the one below?</p>
 </div>
@@ -4020,9 +4026,9 @@ At in-person workshops, beverages and snacks to suit a range of dietary needs ar
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper" class="external-link">sandpaper (0.5.8)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.6.0" class="external-link">sandpaper (0.6.0)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.3.0" class="external-link">pegboard (0.3.0)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.1.14" class="external-link">varnish (0.1.14)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.0" class="external-link">varnish (0.2.0)</a>.</p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -4044,8 +4050,8 @@ At in-person workshops, beverages and snacks to suit a range of dietary needs ar
   "url": "https://fishtree-attempt.github.io/instructor-training/instructor/aio.html",
   "identifier": "https://fishtree-attempt.github.io/instructor-training/instructor/aio.html",
   "dateCreated": "2022-05-31",
-  "dateModified": "2022-06-07",
-  "datePublished": "2022-06-07"
+  "dateModified": "2022-06-14",
+  "datePublished": "2022-06-14"
 }
 
   </script><script>
