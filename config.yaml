@@ -98,7 +98,6 @@ learners:
 instructors: 
 - icebreakers.md
 - additional_exercises.md
-- etherpad.md
 - registration_confirmation.md
 - instructor-notes.md
 
