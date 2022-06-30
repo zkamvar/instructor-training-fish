@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: "Check PR"
         id: check-pr
-        uses: carpentries/actions/check-valid-pr@main
+        uses: carpentries/actions/check-valid-pr@add-invalid-hash
         with:
           pr: ${{ github.event.number }}
 
