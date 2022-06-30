@@ -111,7 +111,7 @@ jobs:
     name: "Comment if workflow files have changed"
     needs: test-pr
     runs-on: ubuntu-latest
-    if: ${{ needs.test-pr.outputs.is_valid != 'true' }}
+    if: ${{ failure() || needs.test-pr.outputs.is_valid != 'true' }}
     steps:
       - name: "Record PR number"
         id: record
